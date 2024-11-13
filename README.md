@@ -51,3 +51,7 @@ http://127.0.0.1:8000/docs
 ```bash
 tox
 ```
+
+## What does this project do?
+
+This project is a simple API that allows you to create, read, update and delete users. It uses an in-memory database to store the users. To test some of the functionalities you can interact with the swagger documentation. The main simple functionality is the endpoint for `read_item` which is a GET request that returns a user by id.
